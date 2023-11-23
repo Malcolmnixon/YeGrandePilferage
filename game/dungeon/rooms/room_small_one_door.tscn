@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbkh85mtwrjdf"]
+
+[ext_resource type="MeshLibrary" uid="uid://mdvx2phwbnpi" path="res://addons/kaykit_dungeon_remastered/DungeonLibrary.meshlib" id="1_5t3fm"]
+
+[node name="RoomSmallOneDoor" type="Node3D"]
+
+[node name="Structure" type="GridMap" parent="."]
+mesh_library = ExtResource("1_5t3fm")
+cell_size = Vector3(1, 1, 1)
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+data = {
+"cells": PackedInt32Array(0, 0, 102, 0, 4, 102, 65532, 4, 102, 65532, 0, 102, 65532, 65532, 102, 0, 65532, 102, 4, 65532, 102, 4, 0, 102, 4, 4, 102, 0, 6, 183, 65530, 6, 655537, 65530, 65530, 1048753, 6, 6, 1441969, 6, 65530, 177, 65530, 2, 1441963, 65530, 65534, 1441963, 6, 2, 1441963, 6, 65534, 1441963, 2, 65530, 655531, 65534, 65530, 655531, 4, 6, 655549, 65534, 6, 655549)
+}
+
+[node name="Decorations" type="GridMap" parent="."]
+mesh_library = ExtResource("1_5t3fm")
+cell_size = Vector3(1, 1, 1)
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+data = {
+"cells": PackedInt32Array(65530, 3, 1048601, 65530, 65533, 1048601, 6, 3, 1441817, 6, 65533, 1441817, 0, 65530, 37, 4, 65534, 150, 65532, 65534, 155)
+}

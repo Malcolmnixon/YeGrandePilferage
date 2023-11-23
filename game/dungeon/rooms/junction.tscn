@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://dd4l6x2m80utj"]
+
+[ext_resource type="MeshLibrary" uid="uid://mdvx2phwbnpi" path="res://addons/kaykit_dungeon_remastered/DungeonLibrary.meshlib" id="1_xd0c5"]
+
+[node name="Junction" type="Node3D"]
+
+[node name="Structure" type="GridMap" parent="."]
+mesh_library = ExtResource("1_xd0c5")
+cell_size = Vector3(1, 1, 1)
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+data = {
+"cells": PackedInt32Array(0, 0, 1441894, 0, 4, 1441894, 0, 8, 1441894, 0, 65532, 1441894, 0, 65528, 1441894, 4, 0, 1441894, 8, 0, 1441894, 65534, 8, 1441963, 65534, 4, 1441963, 65534, 0, 1441963, 65534, 65532, 1441963, 65534, 65528, 1441963, 2, 8, 1441963, 2, 65528, 1441963, 8, 65534, 655531, 8, 2, 655531, 2, 2, 1048753, 2, 65534, 655537, 2, 6, 1048765, 2, 65532, 1048765, 4, 2, 189, 4, 65534, 189)
+}
+
+[node name="Decorations" type="GridMap" parent="."]
+mesh_library = ExtResource("1_xd0c5")
+cell_size = Vector3(1, 1, 1)
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+data = {
+"cells": PackedInt32Array(65534, 0, 1048601, 65534, 6, 1048601, 65534, 65530, 1048601, 2, 65530, 1441817, 2, 6, 1441817, 8, 65534, 25, 8, 2, 655385)
+}

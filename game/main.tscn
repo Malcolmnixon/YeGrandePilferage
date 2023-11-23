@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://jem1v6blucet"]
+
+[ext_resource type="PackedScene" uid="uid://bsn1sd86p2h30" path="res://addons/tiltfive_tools/staging/staging.tscn" id="1_fruug"]
+[ext_resource type="PackedScene" uid="uid://cw2vw6ktvyiek" path="res://game/player.tscn" id="2_6t8jq"]
+[ext_resource type="PackedScene" uid="uid://cy1vbgijgvfb0" path="res://addons/tiltfive_tools/objects/spectator_camera.tscn" id="3_yy83b"]
+
+[node name="Main" instance=ExtResource("1_fruug")]
+start_scene = "res://game/dungeon/dungeon.tscn"
+
+[node name="T5Manager" parent="." index="1"]
+glasses_scene = ExtResource("2_6t8jq")
+
+[node name="SpectatorCamera" parent="." index="3" instance=ExtResource("3_yy83b")]
+vertical = 5.0
+horizontal = 2.0

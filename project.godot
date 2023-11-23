@@ -1,0 +1,35 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Ye Grande Pilferage"
+run/main_scene="res://game/main.tscn"
+config/features=PackedStringArray("4.2", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+T5Interface="*res://addons/tiltfive/T5Interface.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/tiltfive/plugin.cfg")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+
+[xr]
+
+shaders/enabled=true
+tilt_five/application_id="grande.pilferage.com"
+tilt_five/default_display_name="Game: Grande Pilferage"

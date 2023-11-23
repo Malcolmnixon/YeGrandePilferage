@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8xgeqqx5g0av"]
+
+[ext_resource type="MeshLibrary" uid="uid://mdvx2phwbnpi" path="res://addons/kaykit_dungeon_remastered/DungeonLibrary.meshlib" id="1_g1oaj"]
+
+[node name="HallwayL" type="Node3D"]
+
+[node name="Structure" type="GridMap" parent="."]
+mesh_library = ExtResource("1_g1oaj")
+cell_size = Vector3(1, 1, 1)
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+data = {
+"cells": PackedInt32Array(0, 0, 1048678, 0, 4, 1048678, 0, 8, 1048678, 4, 0, 1048678, 8, 0, 1048678, 65534, 65534, 1048753, 2, 2, 1048753, 65534, 8, 1048747, 65534, 4, 1048747, 2, 8, 1048747, 8, 65534, 171, 8, 2, 171, 4, 65534, 171, 0, 65534, 189, 4, 2, 189, 2, 4, 1441981, 65534, 0, 1441981)
+}
+
+[node name="Decorations" type="GridMap" parent="."]
+mesh_library = ExtResource("1_g1oaj")
+cell_size = Vector3(1, 1, 1)
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+data = {
+"cells": PackedInt32Array(4, 65534, 37, 65534, 4, 1048613, 6, 2, 655385, 2, 6, 1441817)
+}

@@ -1,0 +1,613 @@
+[gd_scene load_steps=204 format=3 uid="uid://1y5nl50oj6xs"]
+
+[ext_resource type="PackedScene" uid="uid://ddjhfvwdpisat" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_blue.gltf.glb" id="1_1sp75"]
+[ext_resource type="PackedScene" uid="uid://b4avqji2b6jft" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_brown.gltf.glb" id="2_jra6c"]
+[ext_resource type="PackedScene" uid="uid://kg7h2ks4vvet" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_green.gltf.glb" id="3_a2l07"]
+[ext_resource type="PackedScene" uid="uid://cbtgtxmbfxuqy" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternA_blue.gltf.glb" id="4_yxke7"]
+[ext_resource type="PackedScene" uid="uid://cg1yppx42vjuv" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternA_brown.gltf.glb" id="5_bbq3a"]
+[ext_resource type="PackedScene" uid="uid://cdvhm8v4jctkq" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternA_green.gltf.glb" id="6_7aiyy"]
+[ext_resource type="PackedScene" uid="uid://bo6v0c5bbtxts" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternA_red.gltf.glb" id="7_rvgeg"]
+[ext_resource type="PackedScene" uid="uid://fftus452sl5p" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternA_white.gltf.glb" id="8_4my52"]
+[ext_resource type="PackedScene" uid="uid://che6acwt6i0b" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternA_yellow.gltf.glb" id="9_e4ewl"]
+[ext_resource type="PackedScene" uid="uid://v3g5gh63e0nt" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternB_blue.gltf.glb" id="10_unpdf"]
+[ext_resource type="PackedScene" uid="uid://cwgn17hh8mh5x" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternB_brown.gltf.glb" id="11_wipqe"]
+[ext_resource type="PackedScene" uid="uid://bcv7ov6j2fmfx" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternB_green.gltf.glb" id="12_vwsu2"]
+[ext_resource type="PackedScene" uid="uid://x2wo315ijh35" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternB_red.gltf.glb" id="13_ltivj"]
+[ext_resource type="PackedScene" uid="uid://bf5a5cdamginl" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternB_white.gltf.glb" id="14_dhuxo"]
+[ext_resource type="PackedScene" uid="uid://denjlneye5di0" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternB_yellow.gltf.glb" id="15_fsdk0"]
+[ext_resource type="PackedScene" uid="uid://l7at015ha1dg" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternC_blue.gltf.glb" id="16_888aq"]
+[ext_resource type="PackedScene" uid="uid://bo4tx6rlas83l" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternC_brown.gltf.glb" id="17_bel3q"]
+[ext_resource type="PackedScene" uid="uid://cy6q1r0bbtcge" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternC_green.gltf.glb" id="18_5mtdh"]
+[ext_resource type="PackedScene" uid="uid://lmdql5vro213" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternC_red.gltf.glb" id="19_jx8gn"]
+[ext_resource type="PackedScene" uid="uid://cov2oj7kag20l" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternC_white.gltf.glb" id="20_sb4js"]
+[ext_resource type="PackedScene" uid="uid://r62ruevs3xag" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_patternC_yellow.gltf.glb" id="21_vfjye"]
+[ext_resource type="PackedScene" uid="uid://c5sxx274ovbf6" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_red.gltf.glb" id="22_8hagj"]
+[ext_resource type="PackedScene" uid="uid://c8bssvhtic38u" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_shield_blue.gltf.glb" id="23_b160a"]
+[ext_resource type="PackedScene" uid="uid://cl4k4edcoox1x" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_shield_brown.gltf.glb" id="24_41j56"]
+[ext_resource type="PackedScene" uid="uid://sfvtm7n6w62i" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_shield_green.gltf.glb" id="25_dmbae"]
+[ext_resource type="PackedScene" uid="uid://ddbo4r8ldo3gd" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_shield_red.gltf.glb" id="26_w8v8k"]
+[ext_resource type="PackedScene" uid="uid://w6fb8ql53tms" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_shield_white.gltf.glb" id="27_oawo3"]
+[ext_resource type="PackedScene" uid="uid://dwen8kjcahulv" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_shield_yellow.gltf.glb" id="28_5m746"]
+[ext_resource type="PackedScene" uid="uid://cd2ob8nihsyou" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_thin_blue.gltf.glb" id="29_nqsjx"]
+[ext_resource type="PackedScene" uid="uid://cqns3grubsqdh" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_thin_brown.gltf.glb" id="30_oxwo4"]
+[ext_resource type="PackedScene" uid="uid://bvbm00wcg2hxi" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_thin_green.gltf.glb" id="31_56tkq"]
+[ext_resource type="PackedScene" uid="uid://bs6bdl6tahmrq" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_thin_red.gltf.glb" id="32_lksxd"]
+[ext_resource type="PackedScene" uid="uid://16jcv1ehixmk" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_thin_white.gltf.glb" id="33_da5i5"]
+[ext_resource type="PackedScene" uid="uid://dpgjear2y4vbv" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_thin_yellow.gltf.glb" id="34_1537u"]
+[ext_resource type="PackedScene" uid="uid://i2dn4omdn1bd" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_triple_blue.gltf.glb" id="35_obqn7"]
+[ext_resource type="PackedScene" uid="uid://bf34rtjkcohfe" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_triple_brown.gltf.glb" id="36_2rhes"]
+[ext_resource type="PackedScene" uid="uid://cjg3kjalfstno" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_triple_green.gltf.glb" id="37_luajm"]
+[ext_resource type="PackedScene" uid="uid://blywnx8nbl0s7" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_triple_red.gltf.glb" id="38_7xac8"]
+[ext_resource type="PackedScene" uid="uid://cmtcjmnvnf4a4" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_triple_white.gltf.glb" id="39_0xkju"]
+[ext_resource type="PackedScene" uid="uid://m3qxlobxsp5d" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_triple_yellow.gltf.glb" id="40_phmfe"]
+[ext_resource type="PackedScene" uid="uid://ccwxljwgal4mg" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_white.gltf.glb" id="41_62q85"]
+[ext_resource type="PackedScene" uid="uid://crkb1e7jlxioc" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/banner_yellow.gltf.glb" id="42_g5wug"]
+[ext_resource type="PackedScene" uid="uid://cmcg5b5xfon0j" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/barrel_large.gltf.glb" id="43_efkt4"]
+[ext_resource type="PackedScene" uid="uid://dm5cp1dgbci2r" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/barrel_large_decorated.gltf.glb" id="44_khkdd"]
+[ext_resource type="PackedScene" uid="uid://svf583as18kh" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/barrel_small.gltf.glb" id="45_3mbj5"]
+[ext_resource type="PackedScene" uid="uid://bl0kwn1ltxmp6" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/barrel_small_stack.gltf.glb" id="46_jmrwh"]
+[ext_resource type="PackedScene" uid="uid://mve2viho14tr" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/barrier.gltf.glb" id="47_ob4jf"]
+[ext_resource type="PackedScene" uid="uid://c5em0cum0vm2" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/barrier_column.gltf.glb" id="48_0d3sc"]
+[ext_resource type="PackedScene" uid="uid://bfg02gjdy2nt4" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/barrier_colum_half.gltf.glb" id="49_hdeom"]
+[ext_resource type="PackedScene" uid="uid://dmv7hgethqo8h" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/barrier_corner.gltf.glb" id="50_dtphj"]
+[ext_resource type="PackedScene" uid="uid://d0tpyswy8k4o6" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/barrier_half.gltf.glb" id="51_1t4c0"]
+[ext_resource type="PackedScene" uid="uid://7lluwa5tcj2c" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/bed_decorated.gltf.glb" id="52_aol33"]
+[ext_resource type="PackedScene" uid="uid://bif4jinwmxm28" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/bed_floor.gltf.glb" id="53_pqbtw"]
+[ext_resource type="PackedScene" uid="uid://dkpc2fs1xd400" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/bed_frame.gltf.glb" id="54_gs7cl"]
+[ext_resource type="PackedScene" uid="uid://bhnddnc0yqvvw" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/bottle_A_brown.gltf.glb" id="55_cbxoy"]
+[ext_resource type="PackedScene" uid="uid://d3gvchffuewl0" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/bottle_A_green.gltf.glb" id="56_ta3y2"]
+[ext_resource type="PackedScene" uid="uid://ki2jxbjpvkjt" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/bottle_A_labeled_brown.gltf.glb" id="57_bb7uy"]
+[ext_resource type="PackedScene" uid="uid://bamsl3d4cor0i" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/bottle_A_labeled_green.gltf.glb" id="58_e7yps"]
+[ext_resource type="PackedScene" uid="uid://had7i85comgg" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/bottle_B_brown.gltf.glb" id="59_4w2tn"]
+[ext_resource type="PackedScene" uid="uid://dh5jqjl5o1khh" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/bottle_B_green.gltf.glb" id="60_f7mx8"]
+[ext_resource type="PackedScene" uid="uid://cw1w6kwy718ap" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/bottle_C_brown.gltf.glb" id="61_ljfpm"]
+[ext_resource type="PackedScene" uid="uid://cg1y7q3o5mjel" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/bottle_C_green.gltf.glb" id="62_xtp5b"]
+[ext_resource type="PackedScene" uid="uid://ds4cclsjg00pk" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/box_large.gltf.glb" id="63_cnsf6"]
+[ext_resource type="PackedScene" uid="uid://dw02funjb12jc" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/box_small.gltf.glb" id="64_cr5np"]
+[ext_resource type="PackedScene" uid="uid://bsj7e7tlv2dci" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/box_small_decorated.gltf.glb" id="65_ow2jm"]
+[ext_resource type="PackedScene" uid="uid://ca5aeqte8mtj7" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/box_stacked.gltf.glb" id="66_qgisb"]
+[ext_resource type="PackedScene" uid="uid://bqleggxbg6inm" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/candle.gltf.glb" id="67_uu02f"]
+[ext_resource type="PackedScene" uid="uid://cfst134otpghg" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/candle_lit.gltf.glb" id="68_1r5ow"]
+[ext_resource type="PackedScene" uid="uid://c83bjxxtev64i" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/candle_melted.gltf.glb" id="69_m1j8m"]
+[ext_resource type="PackedScene" uid="uid://claqft4tchfq5" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/candle_thin.gltf.glb" id="70_xer0v"]
+[ext_resource type="PackedScene" uid="uid://da3w0bb18t2se" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/candle_thin_lit.gltf.glb" id="71_mbppt"]
+[ext_resource type="PackedScene" uid="uid://daxplmfapx4j4" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/candle_triple.gltf.glb" id="72_s3mmw"]
+[ext_resource type="PackedScene" uid="uid://d3bvse3ibiy2x" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/chair.gltf.glb" id="73_40lox"]
+[ext_resource type="PackedScene" uid="uid://dinunekp3qgmy" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/chest.glb" id="74_3te8i"]
+[ext_resource type="PackedScene" uid="uid://dripo86i2rdmh" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/chest_gold.glb" id="75_dqily"]
+[ext_resource type="PackedScene" uid="uid://bv0tlyeq3vo51" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/coin.gltf.glb" id="76_v1tct"]
+[ext_resource type="PackedScene" uid="uid://d3f7l0m7v7aqp" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/coin_stack_large.gltf.glb" id="77_7dwg3"]
+[ext_resource type="PackedScene" uid="uid://dclb355xrwwcx" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/coin_stack_medium.gltf.glb" id="78_kwx62"]
+[ext_resource type="PackedScene" uid="uid://dxam2elc2ajrc" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/coin_stack_small.gltf.glb" id="79_45rsg"]
+[ext_resource type="PackedScene" uid="uid://bc7u66vp4jrpt" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/column.gltf.glb" id="80_6vau6"]
+[ext_resource type="PackedScene" uid="uid://oboa66y1ry0t" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/crates_stacked.gltf.glb" id="81_rttk4"]
+[ext_resource type="PackedScene" uid="uid://bdsxw1vgy26ee" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_dirt_large.gltf.glb" id="82_q83an"]
+[ext_resource type="PackedScene" uid="uid://mt4gvtvuwhq6" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_dirt_large_rocky.gltf.glb" id="83_613r7"]
+[ext_resource type="PackedScene" uid="uid://bgxl3114vtyfv" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_dirt_small_A.gltf.glb" id="84_kgacd"]
+[ext_resource type="PackedScene" uid="uid://ba2n37qaxmhwt" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_dirt_small_B.gltf.glb" id="85_ust0s"]
+[ext_resource type="PackedScene" uid="uid://cwleknj5a84ab" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_dirt_small_C.gltf.glb" id="86_b8v6k"]
+[ext_resource type="PackedScene" uid="uid://dx8wt1nfpg7uw" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_dirt_small_corner.gltf.glb" id="87_ooppa"]
+[ext_resource type="PackedScene" uid="uid://cs224ynmlsw7b" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_dirt_small_D.gltf.glb" id="88_12del"]
+[ext_resource type="PackedScene" uid="uid://doleciy1mp1s6" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_dirt_small_weeds.gltf.glb" id="89_5aljh"]
+[ext_resource type="PackedScene" uid="uid://705g88tdfv6o" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_foundation_allsides.gltf.glb" id="90_ih5pk"]
+[ext_resource type="PackedScene" uid="uid://d4f2t2culw57" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_foundation_corner.gltf.glb" id="91_dxd3n"]
+[ext_resource type="PackedScene" uid="uid://co2ogxdask7re" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_foundation_diagonal_corner.gltf.glb" id="92_jqjyb"]
+[ext_resource type="PackedScene" uid="uid://bf1iw831k7jo0" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_foundation_front.gltf.glb" id="93_qx2ky"]
+[ext_resource type="PackedScene" uid="uid://bhesp3qknyllm" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_foundation_front_and_back.gltf.glb" id="94_8rvnv"]
+[ext_resource type="PackedScene" uid="uid://b6hp1cw0nq1g2" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_foundation_front_and_sides.gltf.glb" id="95_6o2cn"]
+[ext_resource type="PackedScene" uid="uid://bendsetjblsdk" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_big_grate.gltf.glb" id="96_g2lbj"]
+[ext_resource type="PackedScene" uid="uid://dpew7esqjnygr" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_big_grate_open.gltf.glb" id="97_7m1ch"]
+[ext_resource type="PackedScene" uid="uid://b1ihkmlj7xk3a" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_big_spikes.glb" id="98_ijnb8"]
+[ext_resource type="PackedScene" uid="uid://dt8kv4erujjqu" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_extralarge_grates.gltf.glb" id="99_6gj1s"]
+[ext_resource type="PackedScene" uid="uid://126tpcdmox7s" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_extralarge_grates_open.gltf.glb" id="100_bqr3k"]
+[ext_resource type="PackedScene" uid="uid://pics8v0khkaw" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_grate.gltf.glb" id="101_xa6wy"]
+[ext_resource type="PackedScene" uid="uid://ffjk14axljbd" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_grate_open.gltf.glb" id="102_fodqn"]
+[ext_resource type="PackedScene" uid="uid://bdfgt55d45al5" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_large.gltf.glb" id="103_n2mqv"]
+[ext_resource type="PackedScene" uid="uid://b1y37r82f6esx" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_large_rocks.gltf.glb" id="104_r14m8"]
+[ext_resource type="PackedScene" uid="uid://0kn5l7nnthcg" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_small.gltf.glb" id="105_1uvwy"]
+[ext_resource type="PackedScene" uid="uid://dhcpvbmpqxgld" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_small_broken_A.gltf.glb" id="106_pma6o"]
+[ext_resource type="PackedScene" uid="uid://c1efa3w5gcema" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_small_broken_B.gltf.glb" id="107_o7v5o"]
+[ext_resource type="PackedScene" uid="uid://dhxd0ty8662rb" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_small_corner.gltf.glb" id="108_dw3y3"]
+[ext_resource type="PackedScene" uid="uid://bricgd320re87" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_small_decorated.gltf.glb" id="109_ghvrq"]
+[ext_resource type="PackedScene" uid="uid://b3p55rv3nvitc" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_small_weeds_A.gltf.glb" id="110_g203m"]
+[ext_resource type="PackedScene" uid="uid://3aidwi3cwwsw" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_tile_small_weeds_B.gltf.glb" id="111_4l85f"]
+[ext_resource type="PackedScene" uid="uid://bw36i0dcvcgpc" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_wood_large.gltf.glb" id="112_2padw"]
+[ext_resource type="PackedScene" uid="uid://cj8eexei2vbru" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_wood_large_dark.gltf.glb" id="113_nvdfs"]
+[ext_resource type="PackedScene" uid="uid://bhatd8owwkwro" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_wood_small.gltf.glb" id="114_ivanm"]
+[ext_resource type="PackedScene" uid="uid://di13sme6p3dga" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/floor_wood_small_dark.gltf.glb" id="115_lpbo8"]
+[ext_resource type="PackedScene" uid="uid://bkpk20gshxfas" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/keg.gltf.glb" id="116_y2upa"]
+[ext_resource type="PackedScene" uid="uid://brbocjgh3svjx" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/keg_decorated.gltf.glb" id="117_hhapj"]
+[ext_resource type="PackedScene" uid="uid://h068aoiora4x" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/key.gltf.glb" id="118_kfune"]
+[ext_resource type="PackedScene" uid="uid://sxoucxygp1nk" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/keyring.gltf.glb" id="119_j0mdp"]
+[ext_resource type="PackedScene" uid="uid://dn25ii21w0hwq" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/keyring_hanging.gltf.glb" id="120_dfhcj"]
+[ext_resource type="PackedScene" uid="uid://davp3b56ncfh1" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/pillar.gltf.glb" id="121_v00t3"]
+[ext_resource type="PackedScene" uid="uid://dn06i5bb36v7r" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/pillar_decorated.gltf.glb" id="122_nc5yi"]
+[ext_resource type="PackedScene" uid="uid://5lqsyvpjd6fp" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/plate.gltf.glb" id="123_n081t"]
+[ext_resource type="PackedScene" uid="uid://ddnt7t1d6viej" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/plate_food_A.gltf.glb" id="124_hayb3"]
+[ext_resource type="PackedScene" uid="uid://vji16ibgol5a" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/plate_food_B.gltf.glb" id="125_ipjbi"]
+[ext_resource type="PackedScene" uid="uid://c5fs3qvy2os72" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/plate_small.gltf.glb" id="126_npfgw"]
+[ext_resource type="PackedScene" uid="uid://cr7xlklm37j0q" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/plate_stack.gltf.glb" id="127_bpu65"]
+[ext_resource type="PackedScene" uid="uid://dcvcbh7e7pnll" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/rubble_half.gltf.glb" id="128_ptcd7"]
+[ext_resource type="PackedScene" uid="uid://cwdlykfvqxong" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/rubble_large.gltf.glb" id="129_oy58a"]
+[ext_resource type="PackedScene" uid="uid://bw6j5p42q3w8w" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/shelf_large.gltf.glb" id="130_iwb5n"]
+[ext_resource type="PackedScene" uid="uid://whjcijva53vt" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/shelf_small.gltf.glb" id="131_buo7k"]
+[ext_resource type="PackedScene" uid="uid://c5k456jkxx8at" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/shelf_small_candles.gltf.glb" id="132_gcrp3"]
+[ext_resource type="PackedScene" uid="uid://dxi5kd4xhgpru" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/shelves.gltf.glb" id="133_jxnmo"]
+[ext_resource type="PackedScene" uid="uid://cvmwyioctlbj7" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/stairs.gltf.glb" id="134_atrpm"]
+[ext_resource type="PackedScene" uid="uid://cak7qpam36j84" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/stairs_narrow.gltf.glb" id="135_igu03"]
+[ext_resource type="PackedScene" uid="uid://b2cobp1vv508t" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/stairs_walled.gltf.glb" id="136_p8wkx"]
+[ext_resource type="PackedScene" uid="uid://c6ohmtyl1m85s" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/stairs_wall_left.gltf.glb" id="137_41fqt"]
+[ext_resource type="PackedScene" uid="uid://7hvjsn2sscwf" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/stairs_wall_right.gltf.glb" id="138_v8esv"]
+[ext_resource type="PackedScene" uid="uid://dlimat26l35gy" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/stairs_wide.gltf.glb" id="139_r3k7a"]
+[ext_resource type="PackedScene" uid="uid://8ra2vypo01cy" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/stairs_wood.gltf.glb" id="140_id2dc"]
+[ext_resource type="PackedScene" uid="uid://b64c0hqggxjxw" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/stairs_wood_decorated.gltf.glb" id="141_5jop5"]
+[ext_resource type="PackedScene" uid="uid://dgnugupplq57x" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/stool.gltf.glb" id="142_rjtff"]
+[ext_resource type="PackedScene" uid="uid://bpe0ua48145dm" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/sword_shield.gltf.glb" id="143_sfmho"]
+[ext_resource type="PackedScene" uid="uid://cbhvbudkjr445" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/sword_shield_broken.gltf.glb" id="144_l4c0c"]
+[ext_resource type="PackedScene" uid="uid://f1kdjvbggaej" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/sword_shield_gold.gltf.glb" id="145_pbdmj"]
+[ext_resource type="PackedScene" uid="uid://bxj0hber37tn2" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_long.gltf.glb" id="146_iv7xq"]
+[ext_resource type="PackedScene" uid="uid://bq5g1x5yoh6a3" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_long_broken.gltf.glb" id="147_5ic51"]
+[ext_resource type="PackedScene" uid="uid://ckpp4of8bpv11" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_long_decorated_A.gltf.glb" id="148_84kxd"]
+[ext_resource type="PackedScene" uid="uid://cdbfnol5ino0j" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_long_decorated_C.gltf.glb" id="149_pb30o"]
+[ext_resource type="PackedScene" uid="uid://bdvxfnrcm746t" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_long_tablecloth.gltf.glb" id="150_u61jw"]
+[ext_resource type="PackedScene" uid="uid://irnwb8rjwi4h" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_long_tablecloth_decorated_A.gltf.glb" id="151_j3egq"]
+[ext_resource type="PackedScene" uid="uid://7guggo3plfn4" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_medium.gltf.glb" id="152_rv3pn"]
+[ext_resource type="PackedScene" uid="uid://l430up5tuvhi" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_medium_broken.gltf.glb" id="153_7g4wi"]
+[ext_resource type="PackedScene" uid="uid://b86hbbg0ibmfp" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_medium_decorated_A.gltf.glb" id="154_sgdll"]
+[ext_resource type="PackedScene" uid="uid://k6a3n0dyorwk" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_medium_tablecloth.gltf.glb" id="155_ice31"]
+[ext_resource type="PackedScene" uid="uid://0ojva7vs0450" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_medium_tablecloth_decorated_B.gltf.glb" id="156_kp3x5"]
+[ext_resource type="PackedScene" uid="uid://i6q666pxh0sj" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_small.gltf.glb" id="157_rc233"]
+[ext_resource type="PackedScene" uid="uid://b3il34ypr56gr" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_small_decorated_A.gltf.glb" id="158_b4a7u"]
+[ext_resource type="PackedScene" uid="uid://dp8wlx5hxixu0" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/table_small_decorated_B.gltf.glb" id="159_mj3sh"]
+[ext_resource type="PackedScene" uid="uid://dho31rghenspx" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/torch.gltf.glb" id="160_5jw1j"]
+[ext_resource type="PackedScene" uid="uid://drdx6hitoebqf" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/torch_lit.gltf.glb" id="161_5q0fl"]
+[ext_resource type="PackedScene" uid="uid://bnkl8fmo7s7p2" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/torch_mounted.gltf.glb" id="162_3osk6"]
+[ext_resource type="PackedScene" uid="uid://qs4r1iq7715h" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/trunk_large_A.gltf.glb" id="163_l4ktb"]
+[ext_resource type="PackedScene" uid="uid://b6k8ma7cq5va7" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/trunk_large_B.gltf.glb" id="164_8iim3"]
+[ext_resource type="PackedScene" uid="uid://b0bpdifoaeify" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/trunk_large_C.gltf.glb" id="165_30btx"]
+[ext_resource type="PackedScene" uid="uid://cbjqi47nn8i22" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/trunk_medium_A.gltf.glb" id="166_2w5jw"]
+[ext_resource type="PackedScene" uid="uid://nns6bh2f4c3a" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/trunk_medium_B.gltf.glb" id="167_0lgh6"]
+[ext_resource type="PackedScene" uid="uid://b38gb7fsbdc4c" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/trunk_medium_C.gltf.glb" id="168_f16sg"]
+[ext_resource type="PackedScene" uid="uid://c57fk33ta1l0p" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/trunk_small_A.gltf.glb" id="169_f0dk5"]
+[ext_resource type="PackedScene" uid="uid://bnx7mski7ro2p" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/trunk_small_B.gltf.glb" id="170_jyai8"]
+[ext_resource type="PackedScene" uid="uid://u2jbg0giqo0f" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/trunk_small_C.gltf.glb" id="171_li7i8"]
+[ext_resource type="PackedScene" uid="uid://c7rt6wi7t8b2w" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall.gltf.glb" id="172_nutw7"]
+[ext_resource type="PackedScene" uid="uid://jwqmre13cr27" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_arched.gltf.glb" id="173_gvcpo"]
+[ext_resource type="PackedScene" uid="uid://caltr45pvf5ka" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_archedwindow_gated.gltf.glb" id="174_gi5vu"]
+[ext_resource type="PackedScene" uid="uid://fijj6i3g2gum" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_archedwindow_gated_scaffold.gltf.glb" id="175_80cc3"]
+[ext_resource type="PackedScene" uid="uid://d2cs8cs5h5rig" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_archedwindow_open.gltf.glb" id="176_pki8p"]
+[ext_resource type="PackedScene" uid="uid://bleky8cwrf6ar" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_broken.gltf.glb" id="177_y5ijm"]
+[ext_resource type="PackedScene" uid="uid://815napm7jph0" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_corner.gltf.glb" id="178_s40st"]
+[ext_resource type="PackedScene" uid="uid://dlrvbln7ha8qu" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_corner_gated.gltf.glb" id="179_1e8ih"]
+[ext_resource type="PackedScene" uid="uid://31uwox64l4qq" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_corner_scaffold.gltf.glb" id="180_gx1uo"]
+[ext_resource type="PackedScene" uid="uid://6tcppn6jgnjj" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_corner_small.gltf.glb" id="181_2tfds"]
+[ext_resource type="PackedScene" uid="uid://bpkymndx8hmdv" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_cracked.gltf.glb" id="182_grqix"]
+[ext_resource type="PackedScene" uid="uid://njnrq8srt26s" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_crossing.gltf.glb" id="183_8gr24"]
+[ext_resource type="PackedScene" uid="uid://bd6l7wm2web6b" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_doorway.glb" id="184_br2en"]
+[ext_resource type="PackedScene" uid="uid://cs2fhswd0rjvd" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_doorway_scaffold.glb" id="185_jh28v"]
+[ext_resource type="PackedScene" uid="uid://6pqmiscfu3p0" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_doorway_sides.gltf.glb" id="186_mhmn7"]
+[ext_resource type="PackedScene" uid="uid://ty2wah6uq8u1" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_doorway_Tsplit.gltf.glb" id="187_trfw5"]
+[ext_resource type="PackedScene" uid="uid://dksnvc770gwtv" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_endcap.gltf.glb" id="188_vjw3c"]
+[ext_resource type="PackedScene" uid="uid://dauy1ivdtv4k7" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_gated.gltf.glb" id="189_f6404"]
+[ext_resource type="PackedScene" uid="uid://bqvq07kexfu8q" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_half.gltf.glb" id="190_kbxi4"]
+[ext_resource type="PackedScene" uid="uid://bhwus2ntahlio" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_half_endcap.gltf.glb" id="191_c8a7m"]
+[ext_resource type="PackedScene" uid="uid://ddghc4wo8bqgd" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_half_endcap_sloped.gltf.glb" id="192_et303"]
+[ext_resource type="PackedScene" uid="uid://mccjbrr06a8i" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_open_scaffold.gltf.glb" id="193_psprs"]
+[ext_resource type="PackedScene" uid="uid://d04q3j6hj1e7r" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_pillar.gltf.glb" id="194_po48m"]
+[ext_resource type="PackedScene" uid="uid://t2saasontarn" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_scaffold.gltf.glb" id="195_owrxj"]
+[ext_resource type="PackedScene" uid="uid://bn1ob2thvol67" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_shelves.gltf.glb" id="196_k1pru"]
+[ext_resource type="PackedScene" uid="uid://dudaeseu0er2c" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_sloped.gltf.glb" id="197_01t44"]
+[ext_resource type="PackedScene" uid="uid://dt7eyyns2p0vp" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_Tsplit.gltf.glb" id="198_25nft"]
+[ext_resource type="PackedScene" uid="uid://hhpvle4w66xv" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_Tsplit_sloped.gltf.glb" id="199_qptwp"]
+[ext_resource type="PackedScene" uid="uid://uksmqmvxgrpd" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_window_closed.gltf.glb" id="200_nb4vi"]
+[ext_resource type="PackedScene" uid="uid://u6rwwq03r05u" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_window_closed_scaffold.gltf.glb" id="201_qr3gp"]
+[ext_resource type="PackedScene" uid="uid://dohaqma8eosk2" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_window_open.gltf.glb" id="202_fp88k"]
+[ext_resource type="PackedScene" uid="uid://dr7de86me5y7n" path="res://addons/kaykit_dungeon_remastered/Assets/gltf/wall_window_open_scaffold.gltf.glb" id="203_80plg"]
+
+[node name="DungeonLibrary" type="Node3D"]
+
+[node name="banner_blue_gltf" parent="." instance=ExtResource("1_1sp75")]
+
+[node name="banner_brown_gltf" parent="." instance=ExtResource("2_jra6c")]
+
+[node name="banner_green_gltf" parent="." instance=ExtResource("3_a2l07")]
+
+[node name="banner_patternA_blue_gltf" parent="." instance=ExtResource("4_yxke7")]
+
+[node name="banner_patternA_brown_gltf" parent="." instance=ExtResource("5_bbq3a")]
+
+[node name="banner_patternA_green_gltf" parent="." instance=ExtResource("6_7aiyy")]
+
+[node name="banner_patternA_red_gltf" parent="." instance=ExtResource("7_rvgeg")]
+
+[node name="banner_patternA_white_gltf" parent="." instance=ExtResource("8_4my52")]
+
+[node name="banner_patternA_yellow_gltf" parent="." instance=ExtResource("9_e4ewl")]
+
+[node name="banner_patternB_blue_gltf" parent="." instance=ExtResource("10_unpdf")]
+
+[node name="banner_patternB_brown_gltf" parent="." instance=ExtResource("11_wipqe")]
+
+[node name="banner_patternB_green_gltf" parent="." instance=ExtResource("12_vwsu2")]
+
+[node name="banner_patternB_red_gltf" parent="." instance=ExtResource("13_ltivj")]
+
+[node name="banner_patternB_white_gltf" parent="." instance=ExtResource("14_dhuxo")]
+
+[node name="banner_patternB_yellow_gltf" parent="." instance=ExtResource("15_fsdk0")]
+
+[node name="banner_patternC_blue_gltf" parent="." instance=ExtResource("16_888aq")]
+
+[node name="banner_patternC_brown_gltf" parent="." instance=ExtResource("17_bel3q")]
+
+[node name="banner_patternC_green_gltf" parent="." instance=ExtResource("18_5mtdh")]
+
+[node name="banner_patternC_red_gltf" parent="." instance=ExtResource("19_jx8gn")]
+
+[node name="banner_patternC_white_gltf" parent="." instance=ExtResource("20_sb4js")]
+
+[node name="banner_patternC_yellow_gltf" parent="." instance=ExtResource("21_vfjye")]
+
+[node name="banner_red_gltf" parent="." instance=ExtResource("22_8hagj")]
+
+[node name="banner_shield_blue_gltf" parent="." instance=ExtResource("23_b160a")]
+
+[node name="banner_shield_brown_gltf" parent="." instance=ExtResource("24_41j56")]
+
+[node name="banner_shield_green_gltf" parent="." instance=ExtResource("25_dmbae")]
+
+[node name="banner_shield_red_gltf" parent="." instance=ExtResource("26_w8v8k")]
+
+[node name="banner_shield_white_gltf" parent="." instance=ExtResource("27_oawo3")]
+
+[node name="banner_shield_yellow_gltf" parent="." instance=ExtResource("28_5m746")]
+
+[node name="banner_thin_blue_gltf" parent="." instance=ExtResource("29_nqsjx")]
+
+[node name="banner_thin_brown_gltf" parent="." instance=ExtResource("30_oxwo4")]
+
+[node name="banner_thin_green_gltf" parent="." instance=ExtResource("31_56tkq")]
+
+[node name="banner_thin_red_gltf" parent="." instance=ExtResource("32_lksxd")]
+
+[node name="banner_thin_white_gltf" parent="." instance=ExtResource("33_da5i5")]
+
+[node name="banner_thin_yellow_gltf" parent="." instance=ExtResource("34_1537u")]
+
+[node name="banner_triple_blue_gltf" parent="." instance=ExtResource("35_obqn7")]
+
+[node name="banner_triple_brown_gltf" parent="." instance=ExtResource("36_2rhes")]
+
+[node name="banner_triple_green_gltf" parent="." instance=ExtResource("37_luajm")]
+
+[node name="banner_triple_red_gltf" parent="." instance=ExtResource("38_7xac8")]
+
+[node name="banner_triple_white_gltf" parent="." instance=ExtResource("39_0xkju")]
+
+[node name="banner_triple_yellow_gltf" parent="." instance=ExtResource("40_phmfe")]
+
+[node name="banner_white_gltf" parent="." instance=ExtResource("41_62q85")]
+
+[node name="banner_yellow_gltf" parent="." instance=ExtResource("42_g5wug")]
+
+[node name="barrel_large_gltf" parent="." instance=ExtResource("43_efkt4")]
+
+[node name="barrel_large_decorated_gltf" parent="." instance=ExtResource("44_khkdd")]
+
+[node name="barrel_small_gltf" parent="." instance=ExtResource("45_3mbj5")]
+
+[node name="barrel_small_stack_gltf" parent="." instance=ExtResource("46_jmrwh")]
+
+[node name="barrier_gltf" parent="." instance=ExtResource("47_ob4jf")]
+
+[node name="barrier_column_gltf" parent="." instance=ExtResource("48_0d3sc")]
+
+[node name="barrier_colum_half_gltf" parent="." instance=ExtResource("49_hdeom")]
+
+[node name="barrier_corner_gltf" parent="." instance=ExtResource("50_dtphj")]
+
+[node name="barrier_half_gltf" parent="." instance=ExtResource("51_1t4c0")]
+
+[node name="bed_decorated_gltf" parent="." instance=ExtResource("52_aol33")]
+
+[node name="bed_floor_gltf" parent="." instance=ExtResource("53_pqbtw")]
+
+[node name="bed_frame_gltf" parent="." instance=ExtResource("54_gs7cl")]
+
+[node name="bottle_A_brown_gltf" parent="." instance=ExtResource("55_cbxoy")]
+
+[node name="bottle_A_green_gltf" parent="." instance=ExtResource("56_ta3y2")]
+
+[node name="bottle_A_labeled_brown_gltf" parent="." instance=ExtResource("57_bb7uy")]
+
+[node name="bottle_A_labeled_green_gltf" parent="." instance=ExtResource("58_e7yps")]
+
+[node name="bottle_B_brown_gltf" parent="." instance=ExtResource("59_4w2tn")]
+
+[node name="bottle_B_green_gltf" parent="." instance=ExtResource("60_f7mx8")]
+
+[node name="bottle_C_brown_gltf" parent="." instance=ExtResource("61_ljfpm")]
+
+[node name="bottle_C_green_gltf" parent="." instance=ExtResource("62_xtp5b")]
+
+[node name="box_large_gltf" parent="." instance=ExtResource("63_cnsf6")]
+
+[node name="box_small_gltf" parent="." instance=ExtResource("64_cr5np")]
+
+[node name="box_small_decorated_gltf" parent="." instance=ExtResource("65_ow2jm")]
+
+[node name="box_stacked_gltf" parent="." instance=ExtResource("66_qgisb")]
+
+[node name="candle_gltf" parent="." instance=ExtResource("67_uu02f")]
+
+[node name="candle_lit_gltf" parent="." instance=ExtResource("68_1r5ow")]
+
+[node name="candle_melted_gltf" parent="." instance=ExtResource("69_m1j8m")]
+
+[node name="candle_thin_gltf" parent="." instance=ExtResource("70_xer0v")]
+
+[node name="candle_thin_lit_gltf" parent="." instance=ExtResource("71_mbppt")]
+
+[node name="candle_triple_gltf" parent="." instance=ExtResource("72_s3mmw")]
+
+[node name="chair_gltf" parent="." instance=ExtResource("73_40lox")]
+
+[node name="chest2" parent="." instance=ExtResource("74_3te8i")]
+
+[node name="chest_gold2" parent="." instance=ExtResource("75_dqily")]
+
+[node name="coin_gltf" parent="." instance=ExtResource("76_v1tct")]
+
+[node name="coin_stack_large_gltf" parent="." instance=ExtResource("77_7dwg3")]
+
+[node name="coin_stack_medium_gltf" parent="." instance=ExtResource("78_kwx62")]
+
+[node name="coin_stack_small_gltf" parent="." instance=ExtResource("79_45rsg")]
+
+[node name="column_gltf" parent="." instance=ExtResource("80_6vau6")]
+
+[node name="crates_stacked_gltf" parent="." instance=ExtResource("81_rttk4")]
+
+[node name="floor_dirt_large_gltf" parent="." instance=ExtResource("82_q83an")]
+
+[node name="floor_dirt_large_rocky_gltf" parent="." instance=ExtResource("83_613r7")]
+
+[node name="floor_dirt_small_A_gltf" parent="." instance=ExtResource("84_kgacd")]
+
+[node name="floor_dirt_small_B_gltf" parent="." instance=ExtResource("85_ust0s")]
+
+[node name="floor_dirt_small_C_gltf" parent="." instance=ExtResource("86_b8v6k")]
+
+[node name="floor_dirt_small_corner_gltf" parent="." instance=ExtResource("87_ooppa")]
+
+[node name="floor_dirt_small_D_gltf" parent="." instance=ExtResource("88_12del")]
+
+[node name="floor_dirt_small_weeds_gltf" parent="." instance=ExtResource("89_5aljh")]
+
+[node name="floor_foundation_allsides_gltf" parent="." instance=ExtResource("90_ih5pk")]
+
+[node name="floor_foundation_corner_gltf" parent="." instance=ExtResource("91_dxd3n")]
+
+[node name="floor_foundation_diagonal_corner_gltf" parent="." instance=ExtResource("92_jqjyb")]
+
+[node name="floor_foundation_front_gltf" parent="." instance=ExtResource("93_qx2ky")]
+
+[node name="floor_foundation_front_and_back_gltf" parent="." instance=ExtResource("94_8rvnv")]
+
+[node name="floor_foundation_front_and_sides_gltf" parent="." instance=ExtResource("95_6o2cn")]
+
+[node name="floor_tile_big_grate_gltf" parent="." instance=ExtResource("96_g2lbj")]
+
+[node name="floor_tile_big_grate_open_gltf" parent="." instance=ExtResource("97_7m1ch")]
+
+[node name="floor_tile_big_spikes2" parent="." instance=ExtResource("98_ijnb8")]
+
+[node name="floor_tile_extralarge_grates_gltf" parent="." instance=ExtResource("99_6gj1s")]
+
+[node name="floor_tile_extralarge_grates_open_gltf" parent="." instance=ExtResource("100_bqr3k")]
+
+[node name="floor_tile_grate_gltf" parent="." instance=ExtResource("101_xa6wy")]
+
+[node name="floor_tile_grate_open_gltf" parent="." instance=ExtResource("102_fodqn")]
+
+[node name="floor_tile_large_gltf" parent="." instance=ExtResource("103_n2mqv")]
+
+[node name="floor_tile_large_rocks_gltf" parent="." instance=ExtResource("104_r14m8")]
+
+[node name="floor_tile_small_gltf" parent="." instance=ExtResource("105_1uvwy")]
+
+[node name="floor_tile_small_broken_A_gltf" parent="." instance=ExtResource("106_pma6o")]
+
+[node name="floor_tile_small_broken_B_gltf" parent="." instance=ExtResource("107_o7v5o")]
+
+[node name="floor_tile_small_corner_gltf" parent="." instance=ExtResource("108_dw3y3")]
+
+[node name="floor_tile_small_decorated_gltf" parent="." instance=ExtResource("109_ghvrq")]
+
+[node name="floor_tile_small_weeds_A_gltf" parent="." instance=ExtResource("110_g203m")]
+
+[node name="floor_tile_small_weeds_B_gltf" parent="." instance=ExtResource("111_4l85f")]
+
+[node name="floor_wood_large_gltf" parent="." instance=ExtResource("112_2padw")]
+
+[node name="floor_wood_large_dark_gltf" parent="." instance=ExtResource("113_nvdfs")]
+
+[node name="floor_wood_small_gltf" parent="." instance=ExtResource("114_ivanm")]
+
+[node name="floor_wood_small_dark_gltf" parent="." instance=ExtResource("115_lpbo8")]
+
+[node name="keg_gltf" parent="." instance=ExtResource("116_y2upa")]
+
+[node name="keg_decorated_gltf" parent="." instance=ExtResource("117_hhapj")]
+
+[node name="key_gltf" parent="." instance=ExtResource("118_kfune")]
+
+[node name="keyring_gltf" parent="." instance=ExtResource("119_j0mdp")]
+
+[node name="keyring_hanging_gltf" parent="." instance=ExtResource("120_dfhcj")]
+
+[node name="pillar_gltf" parent="." instance=ExtResource("121_v00t3")]
+
+[node name="pillar_decorated_gltf" parent="." instance=ExtResource("122_nc5yi")]
+
+[node name="plate_gltf" parent="." instance=ExtResource("123_n081t")]
+
+[node name="plate_food_A_gltf" parent="." instance=ExtResource("124_hayb3")]
+
+[node name="plate_food_B_gltf" parent="." instance=ExtResource("125_ipjbi")]
+
+[node name="plate_small_gltf" parent="." instance=ExtResource("126_npfgw")]
+
+[node name="plate_stack_gltf" parent="." instance=ExtResource("127_bpu65")]
+
+[node name="rubble_half_gltf" parent="." instance=ExtResource("128_ptcd7")]
+
+[node name="rubble_large_gltf" parent="." instance=ExtResource("129_oy58a")]
+
+[node name="shelf_large_gltf" parent="." instance=ExtResource("130_iwb5n")]
+
+[node name="shelf_small_gltf" parent="." instance=ExtResource("131_buo7k")]
+
+[node name="shelf_small_candles_gltf" parent="." instance=ExtResource("132_gcrp3")]
+
+[node name="shelves_gltf" parent="." instance=ExtResource("133_jxnmo")]
+
+[node name="stairs_gltf" parent="." instance=ExtResource("134_atrpm")]
+
+[node name="stairs_narrow_gltf" parent="." instance=ExtResource("135_igu03")]
+
+[node name="stairs_walled_gltf" parent="." instance=ExtResource("136_p8wkx")]
+
+[node name="stairs_wall_left_gltf" parent="." instance=ExtResource("137_41fqt")]
+
+[node name="stairs_wall_right_gltf" parent="." instance=ExtResource("138_v8esv")]
+
+[node name="stairs_wide_gltf" parent="." instance=ExtResource("139_r3k7a")]
+
+[node name="stairs_wood_gltf" parent="." instance=ExtResource("140_id2dc")]
+
+[node name="stairs_wood_decorated_gltf" parent="." instance=ExtResource("141_5jop5")]
+
+[node name="stool_gltf" parent="." instance=ExtResource("142_rjtff")]
+
+[node name="sword_shield_gltf" parent="." instance=ExtResource("143_sfmho")]
+
+[node name="sword_shield_broken_gltf" parent="." instance=ExtResource("144_l4c0c")]
+
+[node name="sword_shield_gold_gltf" parent="." instance=ExtResource("145_pbdmj")]
+
+[node name="table_long_gltf" parent="." instance=ExtResource("146_iv7xq")]
+
+[node name="table_long_broken_gltf" parent="." instance=ExtResource("147_5ic51")]
+
+[node name="table_long_decorated_A_gltf" parent="." instance=ExtResource("148_84kxd")]
+
+[node name="table_long_decorated_C_gltf" parent="." instance=ExtResource("149_pb30o")]
+
+[node name="table_long_tablecloth_gltf" parent="." instance=ExtResource("150_u61jw")]
+
+[node name="table_long_tablecloth_decorated_A_gltf" parent="." instance=ExtResource("151_j3egq")]
+
+[node name="table_medium_gltf" parent="." instance=ExtResource("152_rv3pn")]
+
+[node name="table_medium_broken_gltf" parent="." instance=ExtResource("153_7g4wi")]
+
+[node name="table_medium_decorated_A_gltf" parent="." instance=ExtResource("154_sgdll")]
+
+[node name="table_medium_tablecloth_gltf" parent="." instance=ExtResource("155_ice31")]
+
+[node name="table_medium_tablecloth_decorated_B_gltf" parent="." instance=ExtResource("156_kp3x5")]
+
+[node name="table_small_gltf" parent="." instance=ExtResource("157_rc233")]
+
+[node name="table_small_decorated_A_gltf" parent="." instance=ExtResource("158_b4a7u")]
+
+[node name="table_small_decorated_B_gltf" parent="." instance=ExtResource("159_mj3sh")]
+
+[node name="torch_gltf" parent="." instance=ExtResource("160_5jw1j")]
+
+[node name="torch_lit_gltf" parent="." instance=ExtResource("161_5q0fl")]
+
+[node name="torch_mounted_gltf" parent="." instance=ExtResource("162_3osk6")]
+
+[node name="trunk_large_A_gltf" parent="." instance=ExtResource("163_l4ktb")]
+
+[node name="trunk_large_B_gltf" parent="." instance=ExtResource("164_8iim3")]
+
+[node name="trunk_large_C_gltf" parent="." instance=ExtResource("165_30btx")]
+
+[node name="trunk_medium_A_gltf" parent="." instance=ExtResource("166_2w5jw")]
+
+[node name="trunk_medium_B_gltf" parent="." instance=ExtResource("167_0lgh6")]
+
+[node name="trunk_medium_C_gltf" parent="." instance=ExtResource("168_f16sg")]
+
+[node name="trunk_small_A_gltf" parent="." instance=ExtResource("169_f0dk5")]
+
+[node name="trunk_small_B_gltf" parent="." instance=ExtResource("170_jyai8")]
+
+[node name="trunk_small_C_gltf" parent="." instance=ExtResource("171_li7i8")]
+
+[node name="wall_gltf" parent="." instance=ExtResource("172_nutw7")]
+
+[node name="wall_arched_gltf" parent="." instance=ExtResource("173_gvcpo")]
+
+[node name="wall_archedwindow_gated_gltf" parent="." instance=ExtResource("174_gi5vu")]
+
+[node name="wall_archedwindow_gated_scaffold_gltf" parent="." instance=ExtResource("175_80cc3")]
+
+[node name="wall_archedwindow_open_gltf" parent="." instance=ExtResource("176_pki8p")]
+
+[node name="wall_broken_gltf" parent="." instance=ExtResource("177_y5ijm")]
+
+[node name="wall_corner_gltf" parent="." instance=ExtResource("178_s40st")]
+
+[node name="wall_corner_gated_gltf" parent="." instance=ExtResource("179_1e8ih")]
+
+[node name="wall_corner_scaffold_gltf" parent="." instance=ExtResource("180_gx1uo")]
+
+[node name="wall_corner_small_gltf" parent="." instance=ExtResource("181_2tfds")]
+
+[node name="wall_cracked_gltf" parent="." instance=ExtResource("182_grqix")]
+
+[node name="wall_crossing_gltf" parent="." instance=ExtResource("183_8gr24")]
+
+[node name="wall_doorway2" parent="." instance=ExtResource("184_br2en")]
+
+[node name="wall_doorway_scaffold2" parent="." instance=ExtResource("185_jh28v")]
+
+[node name="wall_doorway_sides_gltf" parent="." instance=ExtResource("186_mhmn7")]
+
+[node name="wall_doorway_Tsplit_gltf" parent="." instance=ExtResource("187_trfw5")]
+
+[node name="wall_endcap_gltf" parent="." instance=ExtResource("188_vjw3c")]
+
+[node name="wall_gated_gltf" parent="." instance=ExtResource("189_f6404")]
+
+[node name="wall_half_gltf" parent="." instance=ExtResource("190_kbxi4")]
+
+[node name="wall_half_endcap_gltf" parent="." instance=ExtResource("191_c8a7m")]
+
+[node name="wall_half_endcap_sloped_gltf" parent="." instance=ExtResource("192_et303")]
+
+[node name="wall_open_scaffold_gltf" parent="." instance=ExtResource("193_psprs")]
+
+[node name="wall_pillar_gltf" parent="." instance=ExtResource("194_po48m")]
+
+[node name="wall_scaffold_gltf" parent="." instance=ExtResource("195_owrxj")]
+
+[node name="wall_shelves_gltf" parent="." instance=ExtResource("196_k1pru")]
+
+[node name="wall_sloped_gltf" parent="." instance=ExtResource("197_01t44")]
+
+[node name="wall_Tsplit_gltf" parent="." instance=ExtResource("198_25nft")]
+
+[node name="wall_Tsplit_sloped_gltf" parent="." instance=ExtResource("199_qptwp")]
+
+[node name="wall_window_closed_gltf" parent="." instance=ExtResource("200_nb4vi")]
+
+[node name="wall_window_closed_scaffold_gltf" parent="." instance=ExtResource("201_qr3gp")]
+
+[node name="wall_window_open_gltf" parent="." instance=ExtResource("202_fp88k")]
+
+[node name="wall_window_open_scaffold_gltf" parent="." instance=ExtResource("203_80plg")]

@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://b64mn3gtfiot0"]
+
+[ext_resource type="MeshLibrary" uid="uid://mdvx2phwbnpi" path="res://addons/kaykit_dungeon_remastered/DungeonLibrary.meshlib" id="1_f60jo"]
+
+[node name="RoomSmallTwoDoors" type="Node3D"]
+
+[node name="Structure" type="GridMap" parent="."]
+mesh_library = ExtResource("1_f60jo")
+cell_size = Vector3(1, 1, 1)
+cell_center_x = false
+cell_center_y = false
+cell_center_z = false
+data = {
+"cells": PackedInt32Array(0, 0, 655462, 0, 4, 655462, 65532, 4, 655462, 65532, 0, 655462, 65532, 65532, 655462, 0, 65532, 655462, 4, 65532, 655462, 4, 0, 655462, 4, 4, 655462, 0, 65530, 655543, 65530, 0, 1048759, 65530, 65530, 1048753, 65530, 6, 655537, 6, 65530, 177, 6, 6, 1441969, 65534, 6, 655531, 2, 6, 655531, 6, 2, 1048747, 6, 65534, 1048747, 65530, 4, 1048765, 65530, 65534, 1048765, 65532, 65530, 189, 2, 65530, 189)
+}
+
+[node name="Decorations" type="GridMap" parent="."]
+mesh_library = ExtResource("1_f60jo")
+cell_size = Vector3(1, 1, 1)
+data = {
+"cells": PackedInt32Array(65530, 65532, 1048601, 65530, 3, 1048601, 65532, 65530, 25, 3, 65530, 25, 4, 4, 43)
+}
